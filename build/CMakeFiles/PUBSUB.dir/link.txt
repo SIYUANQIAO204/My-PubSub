@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\PUBSUB.dir/objects.a
+D:\w64devkit\bin\ar.exe qc CMakeFiles\PUBSUB.dir/objects.a @CMakeFiles\PUBSUB.dir\objects1.rsp
+D:\w64devkit\bin\c++.exe -Wl,--whole-archive CMakeFiles\PUBSUB.dir/objects.a -Wl,--no-whole-archive -o PUBSUB.exe -Wl,--out-implib,libPUBSUB.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\PUBSUB.dir\linkLibs.rsp

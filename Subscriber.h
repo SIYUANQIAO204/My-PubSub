@@ -1,6 +1,7 @@
 #include"Event.h"
 #include<iostream>
 #include<memory>
+#pragma once
 namespace Subscriber
 {
     class Subscriber
@@ -10,7 +11,6 @@ namespace Subscriber
     public:
         Subscriber(int id) : subscriberId(id) {}
         ~Subscriber() = default; // Default destructor
-        
-        void receiveEvent(const std::shared_ptr<Event::Event> event);
+        void receiveEvent(std::shared_ptr<event::Event> event);
     };
 }

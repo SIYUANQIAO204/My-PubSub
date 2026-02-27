@@ -1,5 +1,5 @@
 #include"Event_bus.h"
-namespace Event
+namespace event
 {
     void EventBus::Init()
     {

@@ -1,8 +1,9 @@
 #include"HitEvent.h"
+#include"Event.h"
 #include"Subscriber.h"
 #include<vector>
 #include<memory>
-namespace Event
+namespace event
 {
     class EventBus
     {
